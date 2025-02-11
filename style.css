@@ -1,0 +1,116 @@
+/* Basic reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    background-image: url('love2.jpg'); /* Add your image URL here */
+    background-size: cover; /* Ensures the background covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+}
+
+/* Center the content */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /* Optional: rounds the corners of the container */
+    width: 80%; /* Optional: width adjustment */
+    max-width: 600px; /* Optional: max width for container */
+    background-color: transparent; /* Remove the white box by making the background transparent */
+}
+
+/* Text above the image */
+.text-top h2 {
+    font-size: 28px;
+    color: #fff; /* Adjust text color to ensure visibility against the background */
+    margin-bottom: 15px; /* Add some space below the text */
+}
+
+/* Image styling */
+.image {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Spacing between image and text below */
+}
+
+/* Text below the image */
+.text-bottom h3 {
+    font-size: 24px;
+    color: #fff; /* Adjust text color to ensure visibility against the background */
+    margin-bottom: 20px; /* Add space between text and buttons */
+}
+
+/* GIF styling */
+.gif {
+    width: 300px;  /* Adjust the width of the GIF */
+    height: auto;   /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Spacing below the GIF */
+    border-radius: 10px; /* Optional: round the corners of the GIF */
+}
+
+/* Buttons container styling */
+.buttons {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Ensure buttons align vertically */
+    gap: 10px; /* Space between buttons */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease; /* Smooth transition for button movement */
+}
+
+/* Button colors */
+.yes-btn {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.no-btn {
+    background-color: #ff6347;
+    color: white;
+    position: relative; /* Allow relative positioning for smooth movement */
+}
+
+/* Keyframe for smooth button movement */
+.no-btn.move {
+    transition: transform 0.5s ease; /* Smooth movement transition */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
